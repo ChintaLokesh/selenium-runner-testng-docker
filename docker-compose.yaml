@@ -19,5 +19,4 @@ services:
       - HUB_HOST=hub
     volumes:
       - ./config.properties:/usr/Automation/config.properties
-      - C:\Users\lokeech\.m2:/root/.m2
       - ./output/target1:/usr/Automation/target
